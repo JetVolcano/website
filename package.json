@@ -1,5 +1,5 @@
 {
-  "name": "vite-template-solid",
+  "name": "website",
   "version": "0.0.0",
   "description": "",
   "type": "module",
@@ -7,15 +7,20 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "format": "npx prettier --write ."
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^5.7.2",
-    "vite": "^6.0.0",
-    "vite-plugin-solid": "^2.11.6"
+    "@spotlightjs/sidecar": "^1.11.4",
+    "@spotlightjs/spotlight": "^3.0.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.7"
   },
   "dependencies": {
-    "solid-js": "^1.9.5"
-  }
+    "solid-js": "^1.9.7"
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }
