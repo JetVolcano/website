@@ -28,7 +28,7 @@ const items = ref<NavigationMenuItem[]>([
   },
   {
     label: "Minecraft",
-    icon: "arcticons:minecraft-creeper",
+    icon: "vscode-icons:file-type-minecraft",
     children: [
       {
         label: "Create Space Adventure",

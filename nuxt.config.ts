@@ -19,4 +19,9 @@ export default defineNuxtConfig({
   vite: {
     plugins: [spotlight()],
   },
+  app: {
+    head: {
+      title: "JetVolcano's Website"
+    }
+  },
 });
