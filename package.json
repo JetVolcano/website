@@ -1,0 +1,33 @@
+{
+  "name": "jetvolcano.netlify.app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "format": "prettier --write .",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "2.0.0",
+    "@nuxt/ui": "4.0.0-alpha.1",
+    "@nuxtjs/color-mode": "3.5.2",
+    "nuxt": "^4.1.0",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@compodium/nuxt": "0.1.0-beta.11",
+    "@iconify-json/arcticons": "^1.2.37",
+    "@iconify-json/lucide": "^1.2.66",
+    "@iconify-json/material-icon-theme": "^1.2.26",
+    "@iconify-json/simple-icons": "^1.2.50",
+    "@spotlightjs/spotlight": "^3.0.2",
+    "prettier": "^3.6.2"
+  },
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
+}
