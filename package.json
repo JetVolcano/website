@@ -14,7 +14,7 @@
     "@nuxt/icon": "2.0.0",
     "@nuxt/ui": "4.0.0-alpha.1",
     "@nuxtjs/color-mode": "3.5.2",
-    "nuxt": "^4.1.0",
+    "nuxt": "^4.1.1",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2",
     "vue": "^3.5.21",
