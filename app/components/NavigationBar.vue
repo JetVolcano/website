@@ -5,7 +5,7 @@ const items = ref<NavigationMenuItem[]>([
   {
     label: "Home",
     icon: "lucide:house",
-    to: "/"
+    to: "/",
   },
   {
     label: "Python",
@@ -44,7 +44,7 @@ const items = ref<NavigationMenuItem[]>([
 <template>
   <UHeader>
     <template #title>
-      <UAvatar src="favicon.ico"/>
+      <UAvatar src="favicon.ico" />
       JetVolcano's Website
     </template>
 
@@ -53,14 +53,16 @@ const items = ref<NavigationMenuItem[]>([
     <template #right>
       <UColorModeButton />
 
-      <UButton
-        color="neutral"
-        variant="ghost"
-        to="https://github.com/JetVolcano/website"
-        target="_blank"
-        icon="simple-icons:github"
-        aria-label="GitHub"
-      />
+      <UTooltip text="Open on Github">
+        <UButton
+          color="neutral"
+          variant="ghost"
+          to="https://github.com/JetVolcano/website"
+          target="_blank"
+          icon="simple-icons:github"
+          aria-label="GitHub"
+        />
+      </UTooltip>
     </template>
   </UHeader>
 </template>

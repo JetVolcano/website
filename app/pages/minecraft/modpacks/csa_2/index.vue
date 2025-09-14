@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const title: string = "CSA 2!";
+const description: string = "The amazing sequel to Create Space Adventure!";
+</script>
+
 <template>
-  <h1>Create Space Adventure!</h1>
+  <UBanner title="Now in Alpha!" icon="lucide:rocket" />
+  <UPageHero :title="title" :description="description" />
 </template>

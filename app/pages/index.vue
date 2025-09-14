@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const title: string = "Welcome!";
+const description: string =
+  "This is my website where you can find my Python projects and my Minecraft projects.";
+</script>
 
 <template>
-  <h1>Welcome!</h1>
+  <UPageHero :title="title" :description="description" />
 </template>

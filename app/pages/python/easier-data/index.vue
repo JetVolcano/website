@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const title: string = "Easier Data";
+const description: string = "";
+const links = ref([]);
+</script>
 
 <template>
-  <h1>Easier Data!</h1>
+  <UPageHero :title="title" :description="description" :links="links" />
 </template>

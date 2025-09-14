@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "JetVolcano's Website"
-    }
+      title: "JetVolcano's Website",
+    },
   },
 });

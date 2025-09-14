@@ -1,4 +1,6 @@
 <template>
   <NavigationBar />
-  <slot />
+  <UMain>
+    <slot />
+  </UMain>
 </template>
