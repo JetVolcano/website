@@ -1,7 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import spotlight from "@spotlightjs/spotlight/vite-plugin";
-
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: {
@@ -17,7 +15,7 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.css"],
   vite: {
-    plugins: [spotlight()],
+    plugins: [],
   },
   app: {
     head: {
