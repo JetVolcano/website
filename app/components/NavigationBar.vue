@@ -44,7 +44,7 @@ const items = ref<NavigationMenuItem[]>([
 <template>
   <UHeader>
     <template #title>
-      <UAvatar src="favicon.ico" />
+      <UAvatar src="/favicon.ico" />
       JetVolcano's Website
     </template>
 

@@ -4,6 +4,5 @@ const description: string = "The amazing sequel to Create Space Adventure!";
 </script>
 
 <template>
-  <UBanner title="Now in Alpha!" icon="lucide:rocket" />
   <UPageHero :title="title" :description="description" />
 </template>
