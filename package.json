@@ -18,14 +18,14 @@
     "tailwindcss": "^4.1.14",
     "typescript": "^5.9.3",
     "vue": "^3.5.22",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.6.0"
   },
   "devDependencies": {
     "@compodium/nuxt": "0.1.0-beta.12",
     "@iconify-json/lucide": "^1.2.69",
-    "@iconify-json/material-icon-theme": "^1.2.31",
+    "@iconify-json/material-icon-theme": "^1.2.32",
     "@iconify-json/simple-icons": "^1.2.54",
-    "@iconify-json/vscode-icons": "^1.2.31",
+    "@iconify-json/vscode-icons": "^1.2.32",
     "prettier": "^3.6.2"
   },
   "packageManager": "pnpm@10.18.0+sha512.e804f889f1cecc40d572db084eec3e4881739f8dec69c0ff10d2d1beff9a4e309383ba27b5b750059d7f4c149535b6cd0d2cb1ed3aeb739239a4284a68f40cfa"
