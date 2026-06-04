@@ -23,7 +23,7 @@
   "devDependencies": {
     "@compodium/nuxt": "0.1.0-beta.12",
     "@iconify-json/lucide": "^1.2.93",
-    "@iconify-json/material-icon-theme": "^1.2.51",
+    "@iconify-json/material-icon-theme": "^1.2.52",
     "@iconify-json/simple-icons": "^1.2.71",
     "@iconify-json/vscode-icons": "^1.2.44",
     "prettier": "^3.8.1"
