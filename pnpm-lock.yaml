@@ -46,8 +46,8 @@ importers:
         specifier: ^1.2.71
         version: 1.2.71
       '@iconify-json/vscode-icons':
-        specifier: ^1.2.43
-        version: 1.2.43
+        specifier: ^1.2.44
+        version: 1.2.44
       prettier:
         specifier: ^3.8.1
         version: 3.8.1
@@ -452,8 +452,8 @@ packages:
   '@iconify-json/simple-icons@1.2.71':
     resolution: {integrity: sha512-rNoDFbq1fAYiEexBvrw613/xiUOPEu5MKVV/X8lI64AgdTzLQUUemr9f9fplxUMPoxCBP2rWzlhOEeTHk/Sf0Q==}
 
-  '@iconify-json/vscode-icons@1.2.43':
-    resolution: {integrity: sha512-iI0AiN875W4XJVvzICEjuoZfu2AUbK8OaHbA0RyQVIiru+kSVKFiDR6s9exaErXt9uEjOoXPVObNxfwtopBPEQ==}
+  '@iconify-json/vscode-icons@1.2.44':
+    resolution: {integrity: sha512-3fLOIRRtsm6HD6UPJ3Y6/UztqxNTYgKA8VxrWeg1C+042MD3A/06CkWSsii1pz/f1zl0+YxvCHIVM3tXUlho+A==}
 
   '@iconify/collections@1.0.648':
     resolution: {integrity: sha512-0365h8NN+PXjUXc32cmaQaulext6S6Jnx1+6XxU5ivzNiQWmMlh6W1BkF9wncH+e48yzL1Tqes2A17WwYieZtw==}
@@ -5183,7 +5183,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/vscode-icons@1.2.43':
+  '@iconify-json/vscode-icons@1.2.44':
     dependencies:
       '@iconify/types': 2.0.0
 
