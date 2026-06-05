@@ -5,11 +5,11 @@
 ## 1. Definitions
 
 - **Owner:**\
-&emsp;The owner(s) of the product.
+  &emsp;The owner(s) of the product.
 - **Software:**\
-&emsp;The product.
+  &emsp;The product.
 - **Dependent:**\
-&emsp; Any product that depends on the Software.
+  &emsp; Any product that depends on the Software.
 
 ## 2. Terms
 

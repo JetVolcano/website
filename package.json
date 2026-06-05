@@ -11,22 +11,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/icon": "2.2.1",
-    "@nuxt/ui": "4.5.0",
-    "@nuxtjs/color-mode": "4.0.0",
+    "@nuxt/fonts": "0.14.0",
+    "@nuxt/icon": "2.2.3",
+    "@nuxt/ui": "4.8.1",
+    "@tailwindcss/vite": "^4.3.0",
     "nuxt": "^4.4.6",
-    "tailwindcss": "^4.2.1",
-    "typescript": "^5.9.3",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
     "vue": "^3.5.29",
     "vue-router": "^5.0.3"
   },
   "devDependencies": {
     "@compodium/nuxt": "0.1.0-beta.12",
     "@iconify-json/lucide": "^1.2.93",
-    "@iconify-json/material-icon-theme": "^1.2.52",
-    "@iconify-json/simple-icons": "^1.2.85",
-    "@iconify-json/vscode-icons": "^1.2.44",
+    "@iconify-json/material-icon-theme": "^1.2.51",
+    "@iconify-json/simple-icons": "^1.2.71",
+    "@iconify-json/vscode-icons": "^1.2.43",
     "prettier": "^3.8.1"
   },
-  "packageManager": "pnpm@10.18.0+sha512.e804f889f1cecc40d572db084eec3e4881739f8dec69c0ff10d2d1beff9a4e309383ba27b5b750059d7f4c149535b6cd0d2cb1ed3aeb739239a4284a68f40cfa"
+  "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485"
 }
