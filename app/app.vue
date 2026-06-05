@@ -1,8 +1,8 @@
 <template>
   <UApp>
-    <NavigationBar />
-    <UMain>
-      <NuxtPage /> 
+    <NavigationBar class="font-display"/>
+    <UMain class="font-display">
+      <NuxtPage />
     </UMain>
   </UApp>
 </template>

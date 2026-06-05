@@ -31,10 +31,11 @@ const items = ref<NavigationMenuItem[]>([
     icon: "vscode-icons:file-type-minecraft",
     children: [
       {
-        label: "Create Space Adventure",
-        description: "The amazing sequel to Create Space Adventure!",
+        label: "Create: Explore The World!",
+        description:
+          "Feature packed nomadic pack with an emphasis on the Create Mod!",
         icon: "lucide:rocket",
-        to: "/minecraft/modpacks/csa_2",
+        to: "/minecraft/modpacks/cetw",
       },
     ],
   },

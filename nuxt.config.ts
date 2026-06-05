@@ -17,7 +17,15 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   fonts: {
     provider: "google",
-    families: [{ name: "JetBrains Mono", provider: "google", global: true }],
+    families: [
+      {
+        name: "Maple Mono",
+        src: "/fonts/MapleMonoNL-Regular.woff2",
+        weight: "400",
+        style: "normal",
+        global: true,
+      },
+    ],
   },
   vite: {
     plugins: [tailwindcss()],
