@@ -5,11 +5,11 @@
   --font-display: "Maple Mono";
   --cold-black: oklch(18.309% 0.00406 285.925);
   --header-dark: oklch(25% 0.01 240);
-  --header-light: var(--color-white);
+  --header-light: var(--color-slate-300);
 }
 
 body {
-  --ui-bg: var(--color-slate-200);
+  --ui-bg: var(--color-slate-300);
 
   @variant dark {
     --ui-bg: var(--cold-black);
