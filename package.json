@@ -26,7 +26,7 @@
     "@iconify-json/lucide": "^1.2.93",
     "@iconify-json/material-icon-theme": "^1.2.51",
     "@iconify-json/simple-icons": "^1.2.71",
-    "@iconify-json/vscode-icons": "^1.2.43",
+    "@iconify-json/vscode-icons": "^1.2.54",
     "prettier": "^3.8.1"
   },
   "packageManager": "pnpm@11.5.1+sha512.93f7b57422ea7068257235b4c16eb60762eb68e1dc23723199cc739043ea9be2c4143274a399d8c6defa2b1176226d9ca1c4b63482d6200c1a8fbaa78c1d1485"
