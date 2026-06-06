@@ -10,7 +10,7 @@
 body {
   --ui-bg: var(--color-slate-300);
   --ui-border: var(--color-slate-400);
-  --ui-bg-elevated: var(--color-sky-200);
+  --ui-bg-elevated: var(--color-blue-100);
   --ui-primary: var(--color-sky-500);
 
   @variant dark {
