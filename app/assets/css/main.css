@@ -4,14 +4,18 @@
 @theme {
   --font-display: "Maple Mono";
   --cold-black: oklch(18.309% 0.00406 285.925);
-  --header-dark: oklch(25% 0.01 240);
-  --header-light: var(--color-slate-300);
+  --cold-black-accented: oklch(25% 0.01 240);
 }
 
 body {
   --ui-bg: var(--color-slate-300);
+  --ui-border: var(--color-slate-400);
+  --ui-bg-elevated: var(--color-blue-100);
+  --ui-primary: var(--color-sky-500);
 
   @variant dark {
+    --ui-border: var(--cold-black-accented);
     --ui-bg: var(--cold-black);
+    --ui-bg-elevated: var(--cold-black-accented);
   }
 }
