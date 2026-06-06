@@ -43,7 +43,7 @@ const items = ref<NavigationMenuItem[]>([
 </script>
 
 <template>
-  <UHeader class="">
+  <UHeader>
     <template #title>
       <UAvatar src="/favicon.ico" />
       JetVolcano's Website
