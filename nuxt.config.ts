@@ -12,7 +12,12 @@ export default defineNuxtConfig({
   },
   modules: ["@nuxt/ui", "@nuxt/icon", "@compodium/nuxt", "@nuxt/fonts"],
   icon: {
-    collections: ["lucide"],
+    collections: [
+      "lucide",
+      "simple-icons",
+      "vscode-icons",
+      "material-icon-theme",
+    ],
   },
   css: ["~/assets/css/main.css"],
   fonts: {
@@ -20,7 +25,7 @@ export default defineNuxtConfig({
     families: [
       {
         name: "Maple Mono",
-        src: "/fonts/MapleMonoNL-Regular.woff2",
+        src: "/fonts/maple-mono.woff2",
         weight: "400",
         style: "normal",
         global: true,

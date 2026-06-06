@@ -12,10 +12,12 @@ body {
   --ui-border: var(--color-slate-400);
   --ui-bg-elevated: var(--color-blue-100);
   --ui-primary: var(--color-sky-500);
+  --ui-text: var(--cold-black);
 
   @variant dark {
     --ui-border: var(--cold-black-accented);
     --ui-bg: var(--cold-black);
     --ui-bg-elevated: var(--cold-black-accented);
+    --ui-text: var(--color-slate-300);
   }
 }
